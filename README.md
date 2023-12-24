@@ -1,31 +1,12 @@
-# Dioxus Native Core
+# Dioxus Retrouter
 
-[![Crates.io][crates-badge]][crates-url]
-[![MIT licensed][mit-badge]][mit-url]
-[![Build Status][actions-badge]][actions-url]
-[![Discord chat][discord-badge]][discord-url]
+> code copied from [Dioxus 0.3.2 Router](https://github.com/DioxusLabs/dioxus/tree/v0.3.2/packages/router)
 
-[crates-badge]: https://img.shields.io/crates/v/dioxus-router.svg
-[crates-url]: https://crates.io/crates/dioxus-router
-
-[mit-badge]: https://img.shields.io/badge/license-MIT-blue.svg
-[mit-url]: https://github.com/dioxuslabs/dioxus/blob/master/LICENSE
-
-[actions-badge]: https://github.com/dioxuslabs/dioxus/actions/workflows/main.yml/badge.svg
-[actions-url]: https://github.com/dioxuslabs/dioxus/actions?query=workflow%3ACI+branch%3Amaster
-
-[discord-badge]: https://img.shields.io/discord/899851952891002890.svg?logo=discord&style=flat-square
-[discord-url]: https://discord.gg/XgGxMSkvUM
-
-[Website](https://dioxuslabs.com) |
-[Guides](https://dioxuslabs.com/guide/) |
-[API Docs](https://docs.rs/dioxus-router/latest/dioxus_router) |
-[Chat](https://discord.gg/XgGxMSkvUM)
 
 
 ## Overview
 
-Dioxus Router is a first-party Router for all your Dioxus Apps. It provides a React-Router-style interface using somewhat loose typing rules.
+This repoistory use for maintain retro-style Dioxus router (before 0.4), I think the old version of router is more friendly to dynamic router.
 
 ```rust, ignore
 fn app() {
